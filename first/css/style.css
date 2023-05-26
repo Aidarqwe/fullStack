@@ -1,0 +1,427 @@
+@font-face {
+    font-family: 'intel';
+    src: url('../fonts/intel.svg');
+    src: url('../fonts/intel.eot') format('embedded-opentype'),
+    url('../fonts/intel.woff2') format('woff2'),
+    url('../fonts/intel.woff') format('woff'),
+    url('../fonts/intel.ttf') format('truetype'),
+    url('../fonts/intel.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon_"]:before, [class*=" icon_"]:before {
+    font-family: "intel", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+}
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 0 15vw;
+}
+/*===================================================================================================*/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: #CBECFF;
+    margin-bottom: 100px;
+}
+.header_lang{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+.lang_ru, .lang-en{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #29374E;
+    cursor: pointer;
+}
+.lang_ru{
+    margin-right: 15px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: #0962E8;
+}
+
+.header_hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header_logo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.header_logo p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+}
+.header_logo p:first-child{
+    color: #29374E;
+    margin-right: 5px;
+}
+.header_logo p:last-child{
+    letter-spacing: 0.006em;
+    color: #0962E8;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 1px 7px 3px 17px;
+}
+.header_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 130%;
+    color: #29374E;
+    margin-bottom: 38px;
+    max-width: 60%;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: #0962E8;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+.btn:hover{
+    background-color: #083781;
+}
+.header_img img{
+    width: 40vw ;
+}
+.header_benefits_wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.header_benefits{
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+.benefit_block{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 22px 20px 30px;
+    margin-right: 20px;
+    max-width: 240px;
+}
+.benefit_block p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #29374E;
+}
+.benefit_icon{
+    background-color: #E3ECF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon_graph:before {
+    content: '\e802';
+    color: #0962E8;
+    font-size: 20px;
+}
+.icon_activity:before {
+    content: '\e801';
+    color: #0962E8;
+    font-size: 20px;
+}
+.icon_filter:before {
+    content: '\e800';
+    color: #0962E8;
+    font-size: 20px;
+}
+.icon_setting:before {
+    content: '\e803';
+    color: #0962E8;
+    font-size: 20px;
+}
+/*===================================================================================================*/
+
+.products{
+    margin-bottom: 114px;
+}
+.products h1{
+    margin-bottom: 44px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #29374E;
+
+}
+.products h1 span{
+    color: #0962E8;
+}
+.product_blocks_wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.product_block{
+    padding: 37px 20px 0;
+    background-color: #E9F6FF;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+}
+.block_info h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.block_info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+}
+.product_block img{
+    width: 50%;
+}
+
+/*===================================================================================================*/
+
+.services{
+    margin-bottom: 100px;
+}
+.service_wrapper{
+    display: flex;
+}
+.service_info{
+    width: 50%;
+}
+.service_info h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+    color: #29374E;
+    margin-bottom: 20px;
+}
+.service_info h2 span{
+    color: #0962E8;
+}
+.service_info p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #1E2837;
+    margin-bottom: 37px;
+    max-width: 80%;
+}
+.service_icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.icon_item{
+    width: 50%
+}
+.icon_item img{
+    margin-bottom: 10px;
+}
+.icon_item p{
+    max-width: 90%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #29374E;
+}
+
+/*=====================================================================================================*/
+
+@media screen and (max-width: 992px){
+    .header_benefits{
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 75vh;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        padding: 0 10vw;
+    }
+    .header{
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+    .header_hero{
+        flex-direction: column-reverse;
+        align-items: normal;
+    }
+    .header_img{
+        display: flex;
+        justify-content: center;
+    }
+    .header_img img{
+        width: 80vw;
+    }
+    .header_text{
+        font-size: 16px;
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .header_benefits{
+        position: initial;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .benefit_block{
+        display: flex;
+        justify-content: normal;
+        padding: 40px 20px 15px;
+        margin: 20px;
+        position: relative;
+        max-width: 150px;
+    }
+    .benefit_block p{
+        font-size: 14px;
+    }
+    .benefit_icon{
+        position: absolute;
+        top: -10px;
+    }
+
+    /*=====================================================================================*/
+
+    .products{
+        margin-bottom: 40px;
+    }
+    .products h1{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .product_blocks_wrapper{
+        gap: 16px;
+        flex-direction: column;
+    }
+    .product_block{
+        width: 100%;
+        padding: 25px 16px 0;
+    }
+    .block_info h3{
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .block_info p{
+        font-size: 13px;
+    }
+
+    /*=====================================================================================*/
+
+    .services{
+        margin-bottom: 40px;
+    }
+    .service_wrapper{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .service_info{
+        width: 100%;
+        text-align: center;
+    }
+    .service_info h2{
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+    .service_info p{
+        font-size: 14px;
+        margin-bottom: 12px;
+        max-width: 100%;
+    }
+    .service_info .btn{
+        margin-bottom: 35px;
+    }
+    .service_icons{
+        width: 100%;
+    }
+    .icon_item{
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        margin: 15px;
+        width: 40%;
+        padding: 10px 5px;
+    }
+    @media screen and (max-width: 321px) {
+        .container{
+            padding: 0 5vw;
+        }
+        .header_benefits{
+            margin-top: 20px;
+        }
+        .benefit_block{
+            max-width: 100%;
+            margin: 10px;
+            width: 80%;
+        }
+        .icon_item{
+            margin: 10px;
+        }
+    }
+}
